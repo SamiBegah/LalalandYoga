@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 6s;
+}
+
+.miamiBg {
+  background-image: url("/media/plage.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.lebanonBg {
+  background-image: url("/media/rabiaa_pic.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style-type: none;
+}
